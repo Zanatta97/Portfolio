@@ -51,7 +51,7 @@ Alguns dos projetos presentes neste repositório incluem:
 
 ## Contato
 
-Se você quiser entrar em contato comigo, pode me encontrar no [LinkedIn](https://www.linkedin.com/in/samuel-zanatta-bb606910b/) ou enviar um e-mail para sa.zanatta@hotmail.com.
+Se você quiser entrar em contato comigo, pode me encontrar no [LinkedIn](https://www.linkedin.com/in/samuelzanatta/) ou enviar um e-mail para sa.zanatta@hotmail.com.
 
 Obrigado por visitar meu repositório!
 
@@ -111,7 +111,7 @@ Some of the projects included in this repository are:
 
 ## Contact
 
-If you want to get in touch with me, you can find me on [LinkedIn](https://www.linkedin.com/in/samuel-zanatta-bb606910b/) or send an email to sa.zanatta@hotmail.com.
+If you want to get in touch with me, you can find me on [LinkedIn](https://www.linkedin.com/in/samuelzanatta/) or send an email to sa.zanatta@hotmail.com.
 
 Thank you for visiting my repository!
 
