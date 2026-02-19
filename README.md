@@ -1,8 +1,15 @@
+<p align="center">
+  <a href="#-sobre-o-projeto">Português</a> • 
+  <a href="#-about-the-project">English</a>
+</p>
 
+---
 ``PT-BR``
-# Projetos Iniciais de Aprendizado
+# Meus Projetos
 
-Bem-vindo ao repositório de projetos iniciais da minha jornada de aprendizado em desenvolvimento de software! Aqui você encontrará vários projetos que desenvolvi enquanto aprendia novas linguagens, ferramentas e conceitos de programação. Este repositório reflete meu progresso e dedicação em me tornar um desenvolvedor mais capacitado.
+Bem-vindo ao meu repositório de Portfólio. Aqui estão todos os meus projetos já desenvolvidos, sejam os iniciais da minha jornada de aprendizado quanto os que estou trabalhando atualmente.
+
+Aqui você encontrará vários projetos que desenvolvi enquanto aprendia conceitos de programação, novas linguagens, ferramentas e etc. Este repositório reflete meu progresso e dedicação em me tornar um desenvolvedor mais capacitado.
 
 ## Índice
 - [Sobre o Repositório](#sobre-o-repositório)
@@ -11,21 +18,25 @@ Bem-vindo ao repositório de projetos iniciais da minha jornada de aprendizado e
 - [Contato](#contato)
 
 ## Sobre o Repositório
-Este repositório foi criado para armazenar e compartilhar os projetos que desenvolvi durante meus estudos. Ele está organizado em diferentes pastas que representam etapas do meu aprendizado e experiências práticas, como:
+Este repositório foi criado para armazenar e compartilhar os projetos que desenvolvi durante meus estudos. Ele está organizado em diferentes pastas que representam etapas do meu aprendizado e as diferentes tecnologias nas quais já me aventurei. Segue estrutura de pastas:
 
-- ``Alura``: Projetos relacionados aos cursos da Alura.
-- ``Android``: Projetos desenvolvidos para a plataforma Android.
-- ``Lixo``: Arquivos e projetos descartados ou em desuso.
+- ``Android``: Projetos desenvolvidos para a plataforma **Android** enquanto aprendia para o meu TCC do Curso Técnico.
+- ``C``: Projetos relacionados ao curso de Lógica de Programação da Faculdade.
+- ``CSharp``: Projetos em **C#** e em **.NET**.
+- ``Linx``: Projetos que desenvolvi para facilitar o trabalho dos colaboradores durante o meu período de trabalho na Linx.
+- ``Outros``: Arquivos de projetos que não se enquadraram em nenhuma outra categoria.
+- ``PHP``: Projetos de APIs criadas em PHP para uso em conjunto com as aplicações Android.
 - ``Tecnico Sinodal``: Projetos realizados durante o curso técnico no Colégio Sinodal.
-
-Cada uma dessas pastas contém projetos que exploram diferentes áreas e linguagens de programação.
+- ``Utils``: Arquivos aleatórios.
 
 ## Tecnologias Utilizadas
 Os projetos neste repositório utilizam diversas linguagens e tecnologias, incluindo:
 
+- ``C#``
+- ``.NET Core``
+- ``Entity Framework``
 - ``Java``
 - ``Delphi(Pascal)``
-- ``C#``
 - ``PHP``
 - ``HTML``
 - ``CSS``
@@ -34,10 +45,9 @@ Os projetos neste repositório utilizam diversas linguagens e tecnologias, inclu
 ## Projetos Incluídos
 Alguns dos projetos presentes neste repositório incluem:
 
-1. ``Projetos Alura`` - Desenvolvidos com base nos cursos da Alura.
+1. ``Projeto TreinamentoHelp`` - Projeto de console em **C#** para aprimorar meus conhecimentos em POO e Arquitetura Limpa 
 2. ``Projetos Android`` - Aplicativos criados durante minha exploração na plataforma Android, onde também desenvolvi meu TCC do curso Técnico do Colégio Sinodal Progresso de Montenegro em 2020.
 3. ``Projetos do Curso Técnico`` - Incluem exercícios e projetos desenvolvidos durante o curso técnico no Colégio Sinodal.
-4. ``Projetos Diversos`` - Outros projetos variados que complementaram meu aprendizado.
 
 ## Contato
 
@@ -55,9 +65,11 @@ _______
 <br>
 
 ``EN``
-# Initial Learning Projects
+# My Projects
 
-Welcome to the repository of initial projects from my journey in learning software development! Here, you will find various projects I developed while learning new programming languages, tools, and concepts. This repository reflects my progress and dedication to becoming a more skilled developer.
+Welcome to my Portfolio repository. Here are all the projects I've developed, ranging from the initial ones in my software development learning journey to the ones that I'm currently working.
+
+Here, you will find various projects I developed while learning programming concepts, new programming languages and tools. This repository reflects my progress and dedication to becoming a more skilled developer.
 
 ## Table of Contents
 - [About the Repository](#about-the-repository)
@@ -68,19 +80,23 @@ Welcome to the repository of initial projects from my journey in learning softwa
 ## About the Repository
 This repository was created to store and share the projects I developed during my studies. It is organized into different folders representing stages of my learning and practical experiences, such as:
 
-- ``Alura``: Projects related to courses from Alura (a brazillian platform with courses in Tecnology).
-- ``Android``: Projects developed for the Android platform.
-- ``Lixo``: Discarded or unused files and projects.
-- ``Tecnico Sinodal``: Projects completed during the technical course at Colégio Sinodal.
-
-Each of these folders contains projects exploring different programming areas and languages.
+- - ``Android``: Projects developed for the **Android** platform while working on the final project for my software development course.
+- ``C``: Projects related to the Programming Logic course for college.
+- ``CSharp``: Projects in **C#** and **.NET**.
+- ``Linx``: Internal tools I developed to enhance team productivity during my time at Linx.
+- ``Outros``: Projects that would not fit in any other category.
+- ``PHP``: **PHP APIs** developed to work together with my Android Apps.
+- ``Tecnico Sinodal``: Projects completed during the technical course at Colégio Sinodal..
+- ``Utils``: Just some random files.
 
 ## Technologies Used
 The projects in this repository utilize a variety of languages and technologies, including:
 
-- ``Java``
-- ``Delphi (Pascal)``
 - ``C#``
+- ``.NET Core``
+- ``Entity Framework``
+- ``Java``
+- ``Delphi(Pascal)``
 - ``PHP``
 - ``HTML``
 - ``CSS``
@@ -89,10 +105,9 @@ The projects in this repository utilize a variety of languages and technologies,
 ## Included Projects
 Some of the projects included in this repository are:
 
-1. ``Alura Projects`` - Developed based on Alura courses.
+1. ``Projeto TreinamentoHelp`` - A **C#** Console App to enhance my abilities in OOP and Clean Architecture.
 2. ``Android Projects`` - Applications created during my exploration of the Android platform, including my final project (TCC) for the Technical Course at Colégio Sinodal Progresso de Montenegro in 2020.
 3. ``Technical Course Projects`` - Exercises and projects completed during the technical course at Colégio Sinodal.
-4. ``Miscellaneous Projects`` - Other varied projects that complemented my learning.
 
 ## Contact
 
