@@ -102,7 +102,7 @@ The projects in this repository utilize a variety of languages and technologies,
 - ``CSS``
 - ``Others``
 
-## Included Projects
+## Includes
 Some of the projects included in this repository are:
 
 1. ``Projeto TreinamentoHelp`` - A **C#** Console App to enhance my abilities in OOP and Clean Architecture.
