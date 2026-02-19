@@ -1,3 +1,6 @@
 [submodule "CSharp/TreinamentoHelp"]
 	path = CSharp/TreinamentoHelp
 	url = https://github.com/Zanatta97/TreinamentoHelp
+[submodule "C/EstacioSamuelZanatta"]
+	path = C/EstacioSamuelZanatta
+	url = https://github.com/Zanatta97/EstacioSamuelZanatta
