@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="#-meus-projetos">Português</a> • 
-  <a href="#-my-projects">English</a>
+  <a href="#meus-projetos">Português</a> • 
+  <a href="#my-projects">English</a>
 </p>
 
 ---
