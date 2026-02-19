@@ -80,7 +80,7 @@ Here, you will find various projects I developed while learning programming conc
 ## About the Repository
 This repository was created to store and share the projects I developed during my studies. It is organized into different folders representing stages of my learning and practical experiences, such as:
 
-- - ``Android``: Projects developed for the **Android** platform while working on the final project for my software development course.
+- ``Android``: Projects developed for the **Android** platform while working on the final project for my software development course.
 - ``C``: Projects related to the Programming Logic course for college.
 - ``CSharp``: Projects in **C#** and **.NET**.
 - ``Linx``: Internal tools I developed to enhance team productivity during my time at Linx.
