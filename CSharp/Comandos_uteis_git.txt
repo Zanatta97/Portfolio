@@ -1,0 +1,10 @@
+Para adicionar um submodule
+git submodule add https://github.com/Zanatta97/TreinamentoHelp caminhoPasta/Pasta
+
+
+Para atualizar um submodule do git para a versão mais recente
+
+git submodule update --remote --merge
+git add .
+git commit -m "Atualizando ponteiro do TreinamentoHelp para a versão mais recente"
+git push origin main
