@@ -4,3 +4,9 @@
 [submodule "C/EstacioSamuelZanatta"]
 	path = C/EstacioSamuelZanatta
 	url = https://github.com/Zanatta97/EstacioSamuelZanatta
+[submodule "CSharp/VendasAPI"]
+	path = CSharp/VendasAPI
+	url = https://github.com/Zanatta97/VendasApi.git
+[submodule "Linx/EstensaoJiraLinx"]
+	path = Linx/EstensaoJiraLinx
+	url = https://github.com/Zanatta97/ExtensaoJiraLinx.git
