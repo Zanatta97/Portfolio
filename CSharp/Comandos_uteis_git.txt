@@ -1,3 +1,5 @@
+====================================================================================================================
+
 Para adicionar um submodule
 git submodule add https://github.com/Zanatta97/TreinamentoHelp caminhoPasta/Pasta
 git submodule add https://github.com/Zanatta97/EstacioSamuelZanatta C/EstacioSamuelZanatta
@@ -10,3 +12,31 @@ git submodule update --remote --merge
 git add .
 git commit -m "Atualizando ponteiro do TreinamentoHelp para a versão mais recente"
 git push origin main
+
+====================================================================================================================
+
+Site para verificação de strings de conexão com banco de dados
+https://www.connectionstrings.com/
+
+====================================================================================================================
+
+Migrations do EF Core
+Cria o script para alteração ou criação do banco de acordo com o model do banco de dados
+
+Para utilizar existem duas formas:
+
+1 - Pelo CMD
+- Entrar na pasta do projeto
+- dotnet ef // Valida se o EF Core está instalado corretamente
+- dotnet ef migrations add 'nome' //Cria o script de migração
+- dotnet ef migrations remove 'nome' //Apaga o script criado caso necessário
+- dotnet ef database update //Roda o script e cria o banco ou atualiza as tabelas
+
+2 - Pelo Package Manager Console
+- Primeiro instalar o pacote NuGet Microsoft.EntityFrameworkCore.Tools
+- No console do Package Manager Console
+- - add-migration 'nome' //Cria o script de migração
+- - remove-migration 'nome' //Apaga o script criado caso necessário
+- - update-database //Roda o script e cria o banco ou atualiza as tabelas
+
+====================================================================================================================
