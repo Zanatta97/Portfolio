@@ -1,0 +1,81 @@
+====================================================================================================================
+
+Para adicionar um submodule
+git submodule add https://github.com/Zanatta97/TreinamentoHelp caminhoPasta/Pasta
+git submodule add https://github.com/Zanatta97/EstacioSamuelZanatta C/EstacioSamuelZanatta
+
+
+Para atualizar um submodule do git para a versão mais recente
+*Dentro da pasta do submodule*
+
+git submodule update --remote --merge
+git add .
+git commit -m "Atualizando ponteiro do TreinamentoHelp para a versão mais recente"
+git push origin main
+
+====================================================================================================================
+
+Site para verificação de strings de conexão com banco de dados
+https://www.connectionstrings.com/
+
+====================================================================================================================
+
+Migrations do EF Core
+Cria o script para alteração ou criação do banco de acordo com o model do banco de dados
+
+Para utilizar existem duas formas:
+
+1 - Pelo CMD
+- Entrar na pasta do projeto
+- dotnet ef // Valida se o EF Core está instalado corretamente
+- dotnet ef migrations add 'nome' //Cria o script de migração
+- dotnet ef migrations remove 'nome' //Apaga o script criado caso necessário
+- dotnet ef database update //Roda o script e cria o banco ou atualiza as tabelas
+
+2 - Pelo Package Manager Console
+- Primeiro instalar o pacote NuGet Microsoft.EntityFrameworkCore.Tools
+- No console do Package Manager Console
+- - add-migration 'nome' //Cria o script de migração
+- - remove-migration 'nome' //Apaga o script criado caso necessário
+- - update-database //Roda o script e cria o banco ou atualiza as tabelas
+
+====================================================================================================================
+
+Anotações C# e API
+
+Após o NET 9 Swagger não vem por padrão
+
+Padrão é a OpenAPI
+
+Para visualizar o json padrão
+- No Navegador adicionar na URL /openapi/v1.json
+
+Para abrir automaticamente o JSON padrão
+- no launchsettings mudar o launchBrowser para true
+- No lauchsettings adicionar "launchUrl": "openapi/v1.json"
+
+Para configurar o Swagger no projeto:
+- Adicionar o pacote NuGet Swashbuckle.AspNetCore.SwaggerUI
+- Dentro do arquivo da Solução será adicionado a linha do Swagger
+- No Program.cs adicionar: app.UseSwaggerUI(options => options.SwaggerEndpoint("/openapi/v1.json", "NomeAPI"));
+- No launchsettings mudar a launchUrl para "swagger"
+
+Para configurar o padrão atual da MS (Scalar)
+- Adicionar o pacote NuGet Scalar.AspNetCore
+- Adicionar no program.cs app.MapScalarApiReference();
+- No launchsettings mudar a launchUrl para "scalar/v1"
+
+No controller ao mapear uma rota, se colocar o nome com "Name =" antes, o caminho será apenas a rota principal. Exemplo:
+- [HttpGet(Name = "GetWeatherForecast")] //Se deixar desta forma, a rota para acessar este método será: /WeatherForecast
+[HttpGet("GetWeatherForecast")] //Se deixar desta forma, a rota para acessar este método será: /WeatherForecast/GetWeatherForecast
+
+Apenas 1 request pode possuir o Name, pois se houver mais de um o controller não sabe pra qual enviar a requisição;
+
+=======================================================================================================================
+
+Passo a passo para configuração da conexão ao banco de dados:
+
+1 - Criar o AppDBContext
+2 - ele herda de DbContext
+3 - criar o construtor public AppDBContext(DbContextOptions<AppDBContext> options) : base(options) 
+4 - mapear as tabelas do banco com DbSet e as classes do model. Ex.:  public DbSet<Cliente> Clientes { get; set; }
