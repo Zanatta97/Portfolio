@@ -10,3 +10,9 @@
 [submodule "Linx/EstensaoJiraLinx"]
 	path = Linx/EstensaoJiraLinx
 	url = https://github.com/Zanatta97/ExtensaoJiraLinx.git
+[submodule "CSharp/ApiMetasAnalistas"]
+	path = CSharp/ApiMetasAnalistas
+	url = https://github.com/Zanatta97/ApiMetasAnalistas
+[submodule "React/ApiMetasAnalistas-front-end"]
+	path = React/ApiMetasAnalistas-front-end
+	url = https://github.com/Zanatta97/ApiMetasAnalistas-Front-end
