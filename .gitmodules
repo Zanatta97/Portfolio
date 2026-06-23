@@ -16,3 +16,6 @@
 [submodule "React/ApiMetasAnalistas-front-end"]
 	path = React/ApiMetasAnalistas-front-end
 	url = https://github.com/Zanatta97/ApiMetasAnalistas-Front-end
+[submodule "CSharp/ControleFinanceiro"]
+	path = CSharp/ControleFinanceiro
+	url = https://github.com/Zanatta97/ControleFinanceiro
